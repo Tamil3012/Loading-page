@@ -1,0 +1,776 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artificial Intelligence</title>
+    <link rel="stylesheet" href="ai.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+</head>
+<body>
+    
+
+<header class="sticky-top ">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" >
+        <div class="container-fluid mx-4" id="mainnav">
+    
+            <a href="" class="navbar-brand">
+                <img class="img-fluid" src="image/logo4.png" width="60" alt="" loading="lazy" class="b-inline-block align-top">
+            </a>
+    
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navebareCollapse" 
+                aria-controls="navebareCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+    
+            <div class="collapse navbar-collapse text-center" id="navebareCollapse" >
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item text-center mx-auto">
+                    <a class="nav-link fw-bolder" href="#">Home</a>
+                  </li>
+                  
+                  <li class="nav-links nav-item mx-auto">
+                    <a class="nav-link fw-bolder" href="#">Who We Are&#x25BE;</a>
+            
+                    <div class="mega-box" >
+                      <div class="content py-5 px-3">
+                        <div class="row ">
+                          <div class="col-lg-4 col-md-4 col-sm-12 my-3 text-start">
+                              <h4 class="fw-bolder" style="color: #6CB4EE;">About BlueRose Technologies</h4>
+                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis a quam suscipit officia omnis explicabo architecto natus, ut maxime eligendi facilis est et ad sint voluptatum ea, veritatis rem temporibus!</p>
+                              <a class="text-decoration-none" href="">Read more about us</a>
+                          </div>
+                          <div class="col-lg-4 col-md-4 col-sm-12">
+                            <ul class="d-flex justify-content-start mb-4">
+                              <i class="fa-solid fa-user  py-2 px-2 rounded-circle" style="background-color: #6CB4EE; color: white;" ></i>
+                              <a class="text-decoration-none mx-3 my-auto fw-bolder" style="color: #6CB4EE;" href="">Leadership</a>
+                            </ul>
+                            <ul class="d-flex justify-content-start mb-4">
+                              <i class="fa-solid fa-users  py-2 px-2 rounded-circle" style="background-color: #6CB4EE; color: white;" ></i>
+                              <a class="text-decoration-none mx-3 my-auto fw-bolder" style="color: #6CB4EE;"  href="">Partners</a>
+                            </ul>
+                            <ul class="d-flex justify-content-start mb-4">
+                              <i class="fa-solid fa-handshake-angle  py-2 px-2 rounded-circle" style="background-color: #6CB4EE; color: white;" ></i>
+                              <a class="text-decoration-none mx-3 my-auto fw-bolder" style="color: #6CB4EE;"  href="">CSR Activities</a>
+                            </ul>
+                            <ul class="d-flex justify-content-start mb-4">
+                              <i class="fa-solid fa-briefcase  py-2 px-2 rounded-circle" style="background-color: #6CB4EE; color: white;" ></i>
+                              <a class="text-decoration-none mx-3 my-auto fw-bolder" style="color: #6CB4EE;"  href="">Workforce</a>
+                            </ul>
+                          </div>
+                          <div class="col-lg-4 col-md-4 col-sm-12 ">
+                            <ul class="d-flex justify-content-start mb-4">
+                              <i class="fa-regular fa-newspaper  py-2 px-2 rounded-circle" style="background-color: #6CB4EE; color: white;" ></i>
+                              <a class="text-decoration-none mx-3 my-auto fw-bolder" style="color: #6CB4EE;"  href="">Newsletter</a>
+                            </ul>
+                            <ul class="d-flex justify-content-start mb-4 ">
+                              <i class="fa-brands fa-hive  py-2 px-2 rounded-circle" style="background-color: #6CB4EE; color: white;" ></i>
+                              <a class="text-decoration-none mx-3 my-auto fw-bolder" style="color: #6CB4EE;"  href="">Blog</a>
+                            </ul>
+                          </div>
+                        </div>
+                      
+                      </div>
+                    </div>
+                  </li>
+
+                  <li class="nav-links nav-item mx-auto">
+                    <a class="nav-link fw-bolder" href="#">What We Do&#x25BE;</a>
+            
+                    <div class="mega-box" id="menu-2">
+                      <div class="content py-5 px-3">
+                        <div class="row ">
+                          <div class="col-lg-2 col-md-4 col-sm-6 my-3 text-start">                
+                              <div class="img-area">
+                                <div class="single-img">
+                                  <img  src="image/menu/menu1.jpg" alt="Avatar" class="img-fluid">
+                                    <h5 class="over-text fw-bolder text-white mx-1">Pega</h5>
+                                  <div class="img-overlay d-flex justify-content-center align-items-center" style="background-color: #144775;">
+                                    <p class="text-center fw-bolder text-white">We’re Pega Specialized Delivery Partner</p>
+                                  </div>
+                                </div>
+                              </div>
+
+                          </div>
+                          <div class="col-lg-2 col-md-4 col-sm-6 my-3 text-start">                
+                              <div class="img-area">
+                                <div class="single-img">
+                                  <img  src="image/menu/menu2.jpg" alt="Avatar" class="img-fluid">
+                                    <h5 class="over-text fw-bolder text-white mx-1">SAP</h5>
+                                  <div class="img-overlay d-flex justify-content-center align-items-center" style="background-color: #144775;">
+                                    <p class="text-center fw-bolder text-white">Pioneering Excellence In Technology</p>
+                                  </div>
+                                </div>
+                              </div>
+
+                          </div>
+                          <div class="col-lg-2 col-md-4 col-sm-6 my-3 text-start">                
+                              <div class="img-area">
+                                <div class="single-img">
+                                  <img  src="image/menu/menu3.jpg" alt="Avatar" class="img-fluid">
+                                    <h5 class="over-text fw-bolder text-white mx-1">Oracle</h5>
+                                  <div class="img-overlay d-flex justify-content-center align-items-center" style="background-color: #144775;">
+                                    <p class="text-center fw-bolder text-white">Where Innovation Meets Excellence In Services</p>
+                                  </div>
+                                </div>
+                              </div>
+
+                          </div>
+                          <div class="col-lg-2 col-md-4 col-sm-6 my-3 text-start">                
+                              <div class="img-area">
+                                <div class="single-img">
+                                  <img  src="image/menu/menu4.jpg" alt="Avatar" class="img-fluid">
+                                    <h5 class="over-text fw-bolder text-white mx-1">Telecom</h5>
+                                  <div class="img-overlay d-flex justify-content-center align-items-center" style="background-color: #144775;">
+                                    <p class="text-center fw-bolder text-white">We Make Services Simple, Effective, And Seamless</p>
+                                  </div>
+                                </div>
+                              </div>
+
+                          </div>
+                          <div class="col-lg-2 col-md-4 col-sm-6 my-3 text-start">                
+                              <div class="img-area">
+                                <div class="single-img">
+                                  <img  src="image/menu/menu5.jpg" alt="Avatar" class="img-fluid">
+                                    <h5 class="over-text fw-bolder text-white mx-1">AI/ML</h5>
+                                  <div class="img-overlay d-flex justify-content-center align-items-center" style="background-color: #144775;">
+                                    <p class="text-center fw-bolder text-white">Transforming Data Into Insights With AI/ML Expertise</p>
+                                  </div>
+                                </div>
+                              </div>
+
+                          </div>
+                          <div class="col-lg-2 col-md-4 col-sm-6 my-3 text-start">                
+                              <div class="img-area">
+                                <div class="single-img">
+                                  <img  src="image/menu/menu6.jpg" alt="Avatar" class="img-fluid">
+                                    <h5 class="over-text fw-bolder text-white mx-1">CRM</h5>
+                                  <div class="img-overlay d-flex justify-content-center align-items-center" style="background-color: #144775;">
+                                    <p class="text-center fw-bolder text-white">Your Partner In Customer Success</p>
+                                  </div>
+                                </div>
+                              </div>
+
+                          </div>                          
+                            
+                        </div>
+                      
+                      </div>
+                    </div>
+                  </li>
+
+                  <li class="nav-links nav-item mx-auto">
+                    <a class="nav-link fw-bolder" href="#">Who We Serve&#x25BE;</a>
+            
+                    <div class="mega-box" id="menu-3">
+                      <div class="content py-5 px-3">
+                        <div class="row ">
+                          <div class="col-lg-5 col-md-12 col-sm-12 my-3 text-start">
+                              <div>
+                                <h4 class="fw-bolder" style="color: #6CB4EE;">Healthcare</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis a quam suscipit officia omnis
+                                  explicabo architecto natus, ut maxime eligendi facilis est et ad sint voluptatum ea,
+                                  veritatis rem temporibus!</p>
+                              </div>
+                              <div>
+                                <h4 class="fw-bolder" style="color: #6CB4EE;">Telecom</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis a quam suscipit officia omnis
+                                  explicabo architecto natus, ut maxime eligendi facilis est et ad sint voluptatum ea,
+                                  veritatis rem temporibus!</p>
+                              </div>
+                          </div>
+                          <div class="col-lg-7 col-md-12 col-sm-12">
+                            <div class="row gy-3" id="third-home">
+                              <div class="col-lg-4 col-ms-4 col-sm-12">
+                                  <img class="img-fluid" id="third-home-one" src="image/menu/menu7.jpg" alt="">
+                                  <div class="" id="third-img-con">
+                                    <h4 class="fw-bolder mx-4">FMCG</h4>
+                                  </div>
+                              </div>
+                              <div class="col-lg-4 col-ms-4 col-sm-12">
+                                  <img class="img-fluid" id="third-home-two" src="image/menu/menu8.jpg" alt="">
+                                  <div class="" id="third-img-con">
+                                    <h4 class="fw-bolder mx-4">Automotive</h4>
+                                  </div>
+                              </div>
+                              <div class="col-lg-4 col-ms-4 col-sm-12">
+                                  <img class="img-fluid" id="third-home-three" src="image/menu/menu9.jpg" alt="">
+                                  <div class="" id="third-img-con">
+                                    <h4 class="fw-bolder mx-4">BFSI</h4>
+                                  </div>
+                              </div>
+                             
+                            </div>
+                          </div>
+                          
+                          
+                        </div>
+                      
+                      </div>
+                    </div>
+                  </li>
+                  
+                  <li class="nav-links nav-item mx-auto">
+                    <a class="nav-link fw-bolder" href="#">Products&#x25BE;</a>
+            
+                    <div class="mega-box" id="menu-4">
+                      <div class="content py-2 px-3">
+                        
+                        <div class="row">
+                          <div class="col-12 col-lg-3 col-md-6 col-sm-6 my-3">
+                              <div class="items py-5 px-4" style="background-color: rgb(243, 243, 243);">
+                                <div class="d-flex justify-content-center align-items-center m-auto rounded-circle mb-4" style="background-color: #6CB4EE; width:70px; height: 70px;">
+                                  <i class="fa-solid fa-clipboard-list fa-3x pb-1" style="color: white;"></i>
+                                </div>
+                                  <h6>Generative AI Services</h6>
+                                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi sunt nulla, odio nostrum ad ipsa 
+                                    voluptatum voluptates. Eos sapiente quos cumque, veniam temporibus placeat expedita modi optio molestias, voluptatum doloribus.</p>
+                                  <p class="py-2 px-4 text-white text-white" style="background-color: #6CB4EE;">KNOW MORE</p> 
+                              </div>
+                          </div>
+                          <div class="col-12 col-lg-3 col-md-6 col-sm-6 my-3">
+                              <div class="items py-5 px-4" style="background-color: rgb(243, 243, 243);">
+                                <div class="d-flex justify-content-center align-items-center m-auto rounded-circle mb-4" style="background-color: #6CB4EE; width:70px; height: 70px;">
+                                  <i class="fa-solid fa-link fa-3x" style="color: white;"></i>
+                                </div>
+                                  <h6>BRT 360 (SG) Capabilities</h6>
+                                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi sunt nulla, odio nostrum ad ipsa 
+                                    voluptatum voluptates. Eos sapiente quos cumque, veniam temporibus placeat expedita modi optio molestias, voluptatum doloribus.</p>
+                                  <p class="py-2 px-4 text-white text-white" style="background-color: #6CB4EE;">KNOW MORE</p> 
+                              </div>
+                          </div>
+                          <div class="col-12 col-lg-3 col-md-6 col-sm-6 my-3">
+                              <div class="items py-5 px-4" style="background-color: rgb(243, 243, 243);">
+                                <div class="d-flex justify-content-center align-items-center m-auto rounded-circle mb-4" style="background-color: #6CB4EE; width:70px; height: 70px;">
+                                  <i class="fa-solid fa-calculator fa-3x" style="color: white;"></i>
+                                </div>
+                                  <h6>OSS Mobility Platform</h6>
+                                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi sunt nulla, odio nostrum ad ipsa 
+                                    voluptatum voluptates. Eos sapiente quos cumque, veniam temporibus placeat expedita modi optio molestias, voluptatum doloribus.</p>
+                                  <p class="py-2 px-4 text-white text-white" style="background-color: #6CB4EE;">KNOW MORE</p> 
+                              </div>
+                          </div>
+                          <div class="col-12 col-lg-3 col-md-6 col-sm-6 my-3">
+                              <div class="items py-5 px-4" style="background-color: rgb(243, 243, 243);">
+                                <div class="d-flex justify-content-center align-items-center m-auto rounded-circle mb-4" style="background-color: #6CB4EE; width:70px; height: 70px;">
+                                  <i class="fa-solid fa-clipboard-list fa-3x pb-1" style="color: white;"></i>
+                                </div>
+                                  <h6>Generative AI Services</h6>
+                                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi sunt nulla, odio nostrum ad ipsa 
+                                    voluptatum voluptates. Eos sapiente quos cumque, veniam temporibus placeat expedita modi optio molestias, voluptatum doloribus.</p>
+                                  <p class="py-2 px-4 text-white text-white" style="background-color: #6CB4EE;">KNOW MORE</p> 
+                              </div>
+                          </div>
+                          
+                      </div>
+                      
+                      </div>
+                    </div>
+                  </li>
+
+                  <li class="nav-links nav-item mx-auto">
+                    <a class="nav-link fw-bolder" href="#">Careers&#x25BE;</a>
+            
+                    <div class="mega-box" id="menu-5">
+                      <div class="content py-2 px-3">
+                        
+                        <div class="row">
+                          <div class="col-lg-6 col-md-6 col-sm-6 my-3">
+                              <div>
+                                <a class="text-decoration-none" href="">Job Openings</a>
+                              </div>
+                          </div>
+                          <div class="col-lg-6 col-md-6 col-sm-6 my-3">
+                              <div>
+                                <a class="text-decoration-none" href="">Employee Speak</a>
+                              </div>
+                          </div>
+                          
+                          
+                      </div>
+                      
+                      </div>
+                    </div>
+                  </li>
+
+                  <li class="nav-item text-center mx-auto">
+                    <a class="nav-link fw-bolder" href="#">Contact Us</a>
+                  </li>
+                
+                </ul> 
+            </div>
+            
+            
+        </div>      
+    </nav>
+</header>
+
+
+
+<section id="home">
+
+
+  <div class="home">
+    <video muted loop autoplay class="main-bg-vid">
+      <source src="video/home-bg.mp4" type="video/mp4">
+    </video>
+    <div class="overlay"></div>
+    <div class="home-content d-flex justify-content-center align-items-center ">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-12 col-sm-12">
+            <div class="rotating" style="height: 200px;">
+              <h2>Welcome to AI</h2>
+              <h2>Fast growing multinational company</h2>
+              <h2>Delivering tech solutions</h2>
+            </div>
+          </div>
+          <div class=" col-lg-9 col-md-12 col-sm-12">
+            <div class="row g-3">
+              <div class="home-crd-1 col-lg-4 col-md-6 col-sm-6" id="home-img-box">
+                <img class="img-fluid home-img" src="image/home1.jpg" id="home-img" alt="">
+                <div class="home-img-text text-white px-2">
+                    <h3>PEGA</h3>
+                    <p>Experience the power of industry-focused solutions…</p>
+                </div>
+              </div>
+              <div class="home-crd-2 col-lg-4 col-md-6 col-sm-6" id="home-img-box">
+                <img class="img-fluid home-img" src="image/home2.jpg" id="home-img" alt="">
+                <div class="home-img-text text-white px-2">
+                    <h3>SAP</h3>
+                    <p>BRT SAP offerings on ECC, S/4HANA and Cloud…</p>
+                </div>
+              </div>
+              <div class="home-crd-3 col-lg-4 col-md-6 col-sm-6" id="home-img-box">
+                <img class="img-fluid home-img" src="image/home3.jpg" id="home-img" alt="">
+                <div class="home-img-text text-white px-2">
+                    <h3>Oracle</h3>
+                    <p>BRT offers a complete spectrum of services across…</p>
+                </div>
+              </div>
+              <div class="home-crd-4 col-lg-4 col-md-6 col-sm-6" id="home-img-box">
+                <img class="img-fluid home-img" src="image/home4.jpg" id="home-img" alt="">
+                <div class="home-img-text text-white px-2">
+                    <h3>Telecom</h3>
+                    <p>Established global player in OSS and BSS market.</p>
+                </div>
+              </div>
+              <div class="home-crd-5 col-lg-4 col-md-6 col-sm-6" id="home-img-box">
+                <img class="img-fluid home-img" src="image/home5.jpg" id="home-img" alt="">
+                <div class="home-img-text text-white px-2">
+                    <h3>AI/ML</h3>
+                    <p>Accelerating AI enterprise-wide to achieve…</p>
+                </div>
+              </div>
+              <div class="home-crd-6 col-lg-4 col-md-6 col-sm-6" id="home-img-box">
+                <img class="img-fluid home-img" src="image/home6.jpg" id="home-img" alt="">
+                <div class="home-img-text text-white px-2">
+                    <h3>CRM</h3>
+                    <p>CRM gives you the fastest most complete way to put….</p>
+                </div>
+              </div>
+              
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+      
+   
+
+</section>
+
+
+
+<section class="my-5 pt-5 second">
+
+      <div class="container-fluid py-3">
+        <div class="row g-3">
+          <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-center align-items-center">
+            <div class="second-img">
+              <img class="img-fluid" src="image/secondpg.jpg" alt="">
+              <div class="second-img-con text-center mt-5" style="width: 100%;">
+                <h5 class="fw-bolder" style="color: #688fb1;">WE'RE DELIGHTED TO BEA SILVER SPONSOR</h5>
+                <h6 class="fw-bolder" style="color: #688fb1;">December 31-02,2024</h6>
+              </div>
+            </div>
+            
+          </div>
+          <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-center align-items-center">
+            <div class="">
+              <h3 class="fw-boldder" style="color: #144775;">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h3>
+              <p style=" line-height: 1.9;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati dolorem debitis quam repellendus
+                ratione reiciendis eius rerum assumenda, soluta nesciunt eos quisquam tempore optio numquam dicta.
+                Dolor vel consequuntur dignissimos? ipsum dolor sit amet consectetur adipisicing elit. Obcaecati dolorem debitis quam repellendus
+                ratione reiciendis</p>
+                
+              <a class="text-decoration-none px-3 py-2 text-white" style="background-color: rgb(85, 202, 120);" href="">KNOW MORE!</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+ 
+</section>
+
+
+<section class="third">
+
+    <div class="container-fluid py-5" >
+      <div class="row g-3">
+        <div class="left col-lg-6 col-md-12 col-sm-12 d-flex justify-content-center align-items-center">
+          <video muted controls loop src="video/third.mp4" style="width: 100%;"></video>
+        </div>
+        <div class="right col-lg-6 col-md-12 col-ms-12 d-flex justify-content-center align-items-center">
+          <div class="third-con text-white" style=" line-height: 1.9;">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti dolorum voluptate, consectetur
+                quod optio nesciunt suscipit natus obcaecati nobis incidunt voluptatem dolorem blanditiis hic nemo
+                itaque dolor repellendus veniam iure.</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti dolorum voluptate, consectetur
+                quod optio nesciunt suscipit natus obcaecati nobis incidunt voluptatem dolorem blanditiis hic nemo
+                itaque dolor repellendus veniam iure. Corrupti dolorum voluptate, consectetur
+                quod optio nesciunt suscipit natus obcaecati nobis incidunt voluptatem dolorem blanditiis</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>  
+          </div>
+        </div>
+      </div>
+    </div>
+
+</section>
+
+
+<section class="fourth">
+
+    <div class="container-fluid my-5 py-5">
+      <h2 class="fw-bolder pb-2">Visual Insights</h2>
+
+      <div class="row g-3 d-flex justify-content-center align-items-center">
+        <div class="col-lg-4 col-md-6 col-sm-12 d-flex justify-content-center align-items-center flex-column">
+          <div class="">
+              <video class="fourth-vid" controls muted src="video/fourth3.mp4" style="width: 100%;"></video>
+              <h5 class="fourth-con text-center">BAU | Business As Usual</h5>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 d-flex justify-content-center align-items-center flex-column">
+          <div class="">
+              <video class="fourth-vid" controls muted src="video/fourth2.mp4" style="width: 100%;"></video>
+              <h5 class="fourth-con text-center">BlueRose Drives Generative AI Progress</h5>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 d-flex justify-content-center align-items-center flex-column">
+          <div class="">
+              <video class="fourth-vid" controls muted src="video/fourth3.mp4" style="width: 100%;"></video>
+              <h5 class="fourth-con text-center">ServiceGenAI</h5>
+          </div>
+        </div>
+        
+      </div>
+
+    </div>
+
+</section>
+
+
+
+<section class="fifth mb-5">
+
+
+  <div class="container-fluid py-5" >
+    <h2 class="fw-bolder text-center text-white">Our Culture</h2>
+    <div class="row g-3 pt-3">
+        <div class="our-cul-1 col-lg-3 col-md-6 col-sm-6" ontouchstart="this.classList.toggle('hover');">
+          <div class="container">
+            <div class="front" style="background-image: url('image/fifth1.jpg')">
+              <div class="inner">
+                <h5 class="">Industry Focus</h5>
+              </div>
+            </div>
+            <div class="back">
+              <div class="inner">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae suscipit c.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="our-cul-2 col-lg-3 col-md-6 col-sm-6" ontouchstart="this.classList.toggle('hover');">
+          <div class="container">
+            <div class="front" style="background-image: url('image/fifth2.jpg')">
+              <div class="inner">
+                <h5 class="">Technology Excellence</h5>
+              </div>
+            </div>
+            <div class="back">
+              <div class="inner">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae suscipit c.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="our-cul-3 col-lg-3 col-md-6 col-sm-6" ontouchstart="this.classList.toggle('hover');">
+          <div class="container">
+            <div class="front" style="background-image: url('image/fifth3.jpg')">
+              <div class="inner">
+                <h5 class="">Go The Extra Mile</h5>
+              </div>
+            </div>
+            <div class="back">
+              <div class="inner">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae suscipit c.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="our-cul-4 col-lg-3 col-md-6 col-sm-6" ontouchstart="this.classList.toggle('hover');">
+          <div class="container">
+            <div class="front" style="background-image: url(image/fifth4.jpg)">
+              <div class="inner">
+                <h5 class="">Agile And Adaptable</h5>
+              </div>
+            </div>
+            <div class="back">
+              <div class="inner">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae suscipit c.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+  </div>
+
+
+</section>
+
+
+
+<section class="sixth">
+
+
+  <h2 class="fw-bolder text-center">What our clients say?</h2>
+
+  <div class="carousel slide my-5" id="slider1" data-bs-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <div class="container">
+                <div class="row d-flex justify-content-center align-items-center">
+                    <div class="col-12 d-flex flex-column justify-content-center align-items-center" >
+                        <div class="sixth-box border border-2" style="width: 100%; height: auto;">
+                          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut numquam atque assumenda harum est quas, voluptas veritatis, nemo nostrum doloremque corrupti culpa labore unde recusandae eum vel. Harum, corrupti nesciunt.
+                          Accusantium natus placeat culpa perspiciatis distinctio facilis pariatur magni exercitationem libero quaerat at reiciendis tempora sit atque perferendis est, aut sequi impedit aspernatur minima? Provident, optio impedit. Accusamus, molestias reiciendis!</p>
+                        </div>
+                        <div class="sixth-rev d-flex justify-content-start align-items-start pt-2 px-3" style="width: 100%;">
+                            <div class="">
+                              <img class="img-fluid rounded-circle" style="width: 60px; height: 60px; object-fit: cover;" src="image/fifth-rev1.jpeg" alt="">
+                            </div>
+                            <div class=" my-auto mx-3">
+                              <h6 class="fw-bolder">Ana de armas</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <div class="container">
+                <div class="row d-flex justify-content-center align-items-center">
+                    <div class="col-12 d-flex flex-column justify-content-center align-items-center" >
+                        <div class="sixth-box border border-2 " style="width: 100%; height: auto;">
+                          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut numquam atque assumenda harum est quas, voluptas veritatis, nemo nostrum doloremque corrupti culpa labore unde recusandae eum vel. Harum, corrupti nesciunt.
+                            Accusantium natus placeat culpa perspiciatis distinctio facilis pariatur magni exercitationem libero quaerat at reiciendis tempora sit atque perferendis est, aut sequi impedit aspernatur minima? Provident, optio impedit. Accusamus, molestias reiciendis!</p>
+                        </div>
+                        <div class="sixth-rev d-flex justify-content-start align-items-start pt-2 px-3" style="width: 100%;">
+                            <div class="">
+                              <img class="img-fluid rounded-circle" style="width: 60px; height: 60px; object-fit: cover;" src="image/fifth-rev2.jpeg" alt="">
+                            </div>
+                            <div class=" my-auto mx-3">
+                              <h6 class="fw-bolder">Ester Expósito</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-item ">
+            <div class="container">
+                <div class="row d-flex justify-content-center align-items-center">
+                    <div class="col-12 d-flex flex-column justify-content-center align-items-center" >
+                        <div class="sixth-box border border-2 " style="width: 100%; height: auto;">
+                          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut numquam atque assumenda harum est quas, voluptas veritatis, nemo nostrum doloremque corrupti culpa labore unde recusandae eum vel. Harum, corrupti nesciunt.
+                            Accusantium natus placeat culpa perspiciatis distinctio facilis pariatur magni exercitationem libero quaerat at reiciendis tempora sit atque perferendis est, aut sequi impedit aspernatur minima? Provident, optio impedit. Accusamus, molestias reiciendis!</p>
+                        </div>
+                        <div class="sixth-rev d-flex justify-content-start align-items-start pt-2 px-3" style="width: 100%;">
+                            <div class="">
+                              <img class="img-fluid rounded-circle" style="width: 60px; height: 60px; object-fit: cover;" src="image/fifth-rev3.jpeg" alt="">
+                            </div>
+                            <div class=" my-auto mx-3">
+                              <h6 class="fw-bolder">Cara Delevingne</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-item ">
+            <div class="container">
+                <div class="row d-flex justify-content-center align-items-center">
+                    <div class="col-12 d-flex flex-column justify-content-center align-items-center" >
+                        <div class="sixth-box border border-2 " style="width: 100%; height: auto;">
+                          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut numquam atque assumenda harum est quas, voluptas veritatis, nemo nostrum doloremque corrupti culpa labore unde recusandae eum vel. Harum, corrupti nesciunt.
+                            Accusantium natus placeat culpa perspiciatis distinctio facilis pariatur magni exercitationem libero quaerat at reiciendis tempora sit atque perferendis est, aut sequi impedit aspernatur minima? Provident, optio impedit. Accusamus, molestias reiciendis!</p>
+                        </div>
+                        <div class="sixth-rev d-flex justify-content-start align-items-start pt-2 px-3" style="width: 100%;">
+                            <div class="">
+                              <img class="img-fluid rounded-circle" style="width: 60px; height: 60px; object-fit: cover;" src="image/fifth-rev4.jpg" alt="">
+                            </div>
+                            <div class=" my-auto mx-3">
+                              <h6 class="fw-bolder">Zendaya</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+
+    <div class="carousel-indicators bg-dard">
+        <button type="button" data-bs-target="#slider1" class="btn active rounded-circle" data-bs-slide-to="0"></button>
+        <button type="button" data-bs-target="#slider1" class="btn rounded-circle" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#slider1" class="btn rounded-circle"data-bs-slide-to="2"></button>
+        <button type="button" data-bs-target="#slider1" class="btn rounded-circle"data-bs-slide-to="3"></button>
+    </div>
+   
+</div>
+
+</section>
+
+
+
+<section class="seventh" style="background-color: rgb(241, 241, 241);">
+
+  <div class="container-fluid py-5" id="contact">
+    <div class="text-black p-3">  
+
+      <h2 class="fw-bolder text-center">Our Achievements</h2>
+        <div class="row g-3 d-flex justify-content-center my-4">
+            <div class="col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center align-items-center flex-column">
+                <i class="hidden fa-solid fa-users fa-3x my-3" style="color:#4f8dcf;"> <span style="font-family: sans-serif;">60+</span></i>
+                <div class="fw-bolder text-center" style="color: gray;">
+                    <p>Active trusting clients</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center align-items-center flex-column">
+                <i class="hidden fa-solid fa-rocket fa-3x my-3" style="color:#4f8dcf;"> <span style="font-family: sans-serif;">6</span></i>
+                <div class="fw-bolder text-center" style="color: gray;">
+                    <p>A diverse range of exceptional products</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center align-items-center flex-column">
+                <i class="hidden fa-solid fa-share-nodes fa-3x my-3" style="color:#4f8dcf;"> <span style="font-family: sans-serif;">22+</span></i>        
+                <div class="fw-bolder text-center" style="color: gray;">
+                    <p>Countries where we have presence</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center align-items-center flex-column">
+                <i class="hidden fa-solid fa-trophy fa-3x my-3" style="color:#4f8dcf;"> <span style="font-family: sans-serif;">6+</span></i>        
+                <div class="fw-bolder text-center" style="color: gray;">
+                    <p>Recognized with prestigious accolades</p>
+                </div>
+            </div>
+            
+        </div>
+
+     </div>   
+
+</div>
+
+</section>
+
+
+
+<section class="eight" style="background-image: url('image/eight-bg2.jpg'); margin-bottom: -5px;">
+
+      <div class="container-fluid">
+          <div class="row g-2 py-4">
+            <div class="col-lg-8 col-md-12 col-sm-12">
+              <h4 class="fw-bolder" style="color: gray;">Get In Touch</h4>
+              <div class="my-3">
+                <p class="text-white my-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi modi accusantium ea magni
+                  necessitatibus quis maxime quisquam? Omnis eos nostrum, corporis quo, eum rem impedit nisi aperiam, perferendis placeat dolorum!</p>
+              </div>
+              
+              <div class="my-4">
+                <a class="text-decoration-none eight-view py-2 px-3 text-white rounded-1" href="" style="background-color: rgb(85, 202, 120);"><i class="fa-solid fa-map-location-dot"></i> VIEW GLOBAL PRESENCE</a>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-12 col-sm-12">
+              <h4 class="fw-bolder" style="color: gray;">Get Subscribed</h4>
+              <div class="d-flex flex-column">
+                <input type="text" class="eight-inp my-2 py-2" placeholder="Enter your email" style="background-color: transparent;">
+                <a class="text-decoration-none eight-sub fw-bolder my-2" href="" style="color: white;">> Subscribe</a>
+                <div class="d-flex eight-social my-1">
+                              
+                  <li class="list-group-item"><a class="fa-brands fa-youtube text-decoration-none mx-2 p-2 rounded-2" style="color: white; background-color: #144775;"></a></li>
+                  <li class="list-group-item"><a class="fa-brands fa-facebook text-decoration-none mx-2 p-2 rounded-2" style="color: white; background-color: #144775;"></a></li>
+                  <li class="list-group-item"><a class="fa-brands fa-twitter text-decoration-none mx-2 p-2 rounded-2" style="color: white; background-color: #144775;"></a></li>
+                  <li class="list-group-item"><a class="fa-brands fa-linkedin text-decoration-none mx-2 p-2 rounded-2" style="color: white; background-color: #144775;"></a></li>
+                  <li class="list-group-item"><a class="fa-brands fa-instagram text-decoration-none mx-2 p-2 rounded-2" style="color: white; background-color: #144775;"></a></li>
+
+                </div>
+              </div>
+              
+            </div>
+          </div>
+          <hr class="m-auto " style="width: 80%; border: 2px solid gray;">         
+
+      </div>
+
+      <h6 class="text-white text-center py-2 mt-3">© Copyright 2009 – 2024 | Gatelogsystem All Rights Reserved | <a href="" class="text-decoration-none eight-pri" style="color: #4f8dcf;">Privacy Policy</a></h6>
+
+
+</section>
+
+
+
+    <script type="text/JavaScript">
+        let first = document.getElementById("first")
+        let two = document.getElementById("two")
+        let three = document.getElementById("three")
+        let heading = document.getElementById("heading")
+
+        window.addEventListener('scroll',function(){
+            var value = window.scrollY;
+            
+            first.style.top = value*0.5+'px';
+            two.style.top = value*0.3+'px';
+            three.style.bottom = value*0.3+'px';
+            heading.style.top = value*1+'px';
+        })
+
+
+
+        window.addEventListener('scroll',()=>{
+        let container=document.getElementById("mainnav");
+        container.classList.toggle('sticky',window.scrollY > 0)
+
+       
+        
+})
+
+              
+
+    </script>
+
+<script src="ai.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+
+</body>
+</html>
